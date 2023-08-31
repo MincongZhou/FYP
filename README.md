@@ -2,10 +2,6 @@ This is a parking space rental system that includes both front-end and back-end 
 The front-end is developed using React and the back-end uses Spring Boot and SQLite.
 
 
-GitHub Repository
-You can access the project on GitHub at [https://github.com/unsw-cse-comp3900-9900-23T2/capstone-project-9900h11ateamwinning5.git]
-
-
 Steps to use:
 1. Start the back-end service: 			'mvn spring-boot:run'
 2. Install the front-end dependencies: 		'npm install'
