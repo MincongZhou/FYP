@@ -1,0 +1,50 @@
+Week1
+
+Group formed and named. Selected Scrum Master. We decided to choose car sapce renting system to be our 9900 topic. We explored some useful 
+software tools and libraries that we can use for the project. Also, we planned to have meeting every Tuesday and Thursday. As for me, I 
+learned some frontend materials like javascript, react etc. I also read the 9900 project proposal specification.
+
+Week2
+
+As a team we decided to use React for frontend, Spring Boot for backend and SQLite for database. Also, we divided our parts for proposal.
+Drawing the User interface is my work and I drew one third at the end of week2. For Week3, I plan to finish the UI before my tutorial, 
+learn and review what I have learned on COMP6080 which is a frontend class. If I still have more time on week3, I will try to write some pages. 
+
+Week3
+
+Finished project proposal before the deadline. As for me, I drew the whole UI pages and flow diagram. After drawing the UI, I‘m more familiar with
+our project and build the basic structure with it. In Week4, we will try our best to finish the sprint 1 tasks in jira and I will write UI pages 
+based on the UI sketch. 
+
+Week4
+
+This week, We started to code the Sprint1 part. It seems not bad during the coding session. I started to code the UI interfaces based on sprint1,
+because of limited time，I focus more on functionality rather than aesthetic. I found that I still need to learn more.
+
+Week5
+
+Finished Sprint1, demo1 and retrospective. After presentation on tutorial, we found that some details we didn't notice like password constrain 
+and pop up messages. We need to focus more on details and try to make our website more user-friendly. Also, as for me, I need to think about 
+details in User Interface also. 
+
+Week6 
+
+Flexible week. We analysed the Sprint2 tasks. As for me, I start to code the Sprint2 User interface.
+
+Week7
+We started to code Sprint2 tasks. During the process, I found that I missed the car space booking page for provider, after discussing with my
+teammates, we decided to add one function page in the main page finally. Also, I met a bug that system can't get the user location quickly because 
+of the google map external interface, I will try to fix this next week. Apart from that, everything looks not bad. 
+
+Week8
+Finished Demo2 presentation. For the Sprint2, we almost finished the main functions. However, there are some details that we don't have enough
+time to finish like pop up. I realized that we may need to scheduel more frequently and try to do agility planing. Also, for next week, we will
+start to add our novel function which is point-discount system.
+
+Week9
+In this week, we added novel functions in our application and fixed some bugs of Sprint2. We will still to find some details to revise next week.
+
+Week10
+Finished our project finally. During this project, No matther the ability of coding and team work, I learned a lot. For demo3, which is the last
+demo also, our team member pre presentation the day before presentation and practice many times. Also, we finished the report. Have a good time 
+in this term.
