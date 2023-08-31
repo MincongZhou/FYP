@@ -1,0 +1,147 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+  height: 100%;
+}
+
+.rc-slider-captcha-jigsaw{
+  z-index: 10;
+}
+.rc-slider-captcha-control-tips{
+  display: none;
+}
+.rc-slider-captcha-button{
+  z-index: 10;
+}
+.rc-slider-captcha-control::after{
+  content: 'Drag the slider to the right';
+  position: relative;
+  font-size: 12px;
+  top: 7px;
+  margin-left: 40px;
+  color: #999;
+}
+
+/* 更改选择器样式 */
+input[type="datetime-local"]::-webkit-datetime-edit {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 更改日期部分样式 */
+input[type="datetime-local"]::-webkit-inner-spin-button,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* chrome 73so.com */ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+/* 火狐浏览器 */
+input[type="number"]{
+    -moz-appearance: textfield;
+    height: 30px;
+    line-height: 30px;
+}
+
+/* 更改不可选部分样式 */
+input[type="datetime-local"]::-webkit-datetime-edit-ampm-field,
+input[type="datetime-local"]::-webkit-datetime-edit-day-field,
+input[type="datetime-local"]::-webkit-datetime-edit-hour-field,
+input[type="datetime-local"]::-webkit-datetime-edit-minute-field,
+input[type="datetime-local"]::-webkit-datetime-edit-month-field,
+input[type="datetime-local"]::-webkit-datetime-edit-second-field,
+input[type="datetime-local"]::-webkit-datetime-edit-week-field,
+input[type="datetime-local"]::-webkit-datetime-edit-year-field {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table-height .MuiPaper-root.MuiPaper-elevation {
+  position: relative;
+  top: 1px;
+}
+
+.google-msg .MuiImageListItem-img {
+  width: 106px !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(241, 195, 195);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: darkgrey;
+}
+
+.slick-slide img {
+  height: 300px;
+  width: 100%;
+}
+
+.home-banner .location-search {
+  flex: 1;
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 17px;
+  text-indent: 12px;
+}
+.map .gm-style-iw-a{
+  display: none;
+}
